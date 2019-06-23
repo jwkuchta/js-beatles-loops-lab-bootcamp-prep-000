@@ -7,8 +7,9 @@ const facts = [
 
 function johnLennonFacts(facts) {
   var i = 0;
+  var newFacts = []
   while(i < facts.length) {
-    facts = facts[i] + " !!!";
+    facts[i] = facts[i] + " !!!";
     i = i + 1;
   }
   return facts;
