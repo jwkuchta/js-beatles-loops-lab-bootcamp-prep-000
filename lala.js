@@ -1,7 +1,7 @@
 function iLoveTheBeatles(num) {
-  var new = [];
+  var newArray = [];
   do {
-    new.push("I love the Beatles!")
+    newArray.push("I love the Beatles!")
     num = num + 1;
   } while(num < 15)
 }
